@@ -1,0 +1,518 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.000471] (my_first_packgae_msgs) JobQueued: {'identifier': 'my_first_packgae_msgs', 'dependencies': OrderedDict()}
+[0.000533] (my_first_packgae_msgs) JobStarted: {'identifier': 'my_first_packgae_msgs'}
+[0.020827] (my_first_packgae_msgs) JobProgress: {'identifier': 'my_first_packgae_msgs', 'progress': 'cmake'}
+[0.027015] (my_first_packgae_msgs) JobProgress: {'identifier': 'my_first_packgae_msgs', 'progress': 'build'}
+[0.028827] (my_first_packgae_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tsi/ros2_study/build/my_first_packgae_msgs', '--', '-j12', '-l12'], 'cwd': '/home/tsi/ros2_study/build/my_first_packgae_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'tsi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tsi/ros2_study/install/my_first_packgae_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/tsi'), ('OLDPWD', '/home/tsi/ros2_study/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1620'), ('SYSTEMD_EXEC_PID', '2089'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2483'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tsi/ros2_study/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tsi'), ('JOURNAL_STREAM', '8:10890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tsi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/tsi/.local/bin:/home/tsi/.local/bin:/opt/ros/humble/bin:/home/tsi/.local/bin:/home/tsi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tsikorea:@/tmp/.ICE-unix/1769,unix/tsikorea:/tmp/.ICE-unix/1769'), ('INVOCATION_ID', '0f9304a6ca94455284409ab38e5a1b30'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KQAX62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/tsi/ros2_study/install/my_first_packgae_msgs:/home/tsi/ros2_study/install/my_first_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:49d81b4c-1fae-45d8-8c06-c8c981a9ea7b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tsi/ros2_study/build/my_first_packgae_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages:/home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tsi/ros2_study/install/my_first_packgae_msgs:/home/tsi/ros2_study/install/my_first_package:/opt/ros/humble')]), 'shell': False}
+[0.089496] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099419] (-) TimerEvent: {}
+[0.200183] (-) TimerEvent: {}
+[0.286602] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.290983] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.297866] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.300262] (-) TimerEvent: {}
+[0.332403] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400787] (-) TimerEvent: {}
+[0.501576] (-) TimerEvent: {}
+[0.602430] (-) TimerEvent: {}
+[0.702940] (-) TimerEvent: {}
+[0.803835] (-) TimerEvent: {}
+[0.904369] (-) TimerEvent: {}
+[1.005270] (-) TimerEvent: {}
+[1.105800] (-) TimerEvent: {}
+[1.206709] (-) TimerEvent: {}
+[1.307236] (-) TimerEvent: {}
+[1.408014] (-) TimerEvent: {}
+[1.508846] (-) TimerEvent: {}
+[1.609698] (-) TimerEvent: {}
+[1.710574] (-) TimerEvent: {}
+[1.811526] (-) TimerEvent: {}
+[1.912482] (-) TimerEvent: {}
+[2.005632] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.012971] (-) TimerEvent: {}
+[2.113906] (-) TimerEvent: {}
+[2.214903] (-) TimerEvent: {}
+[2.315573] (-) TimerEvent: {}
+[2.416490] (-) TimerEvent: {}
+[2.517369] (-) TimerEvent: {}
+[2.618337] (-) TimerEvent: {}
+[2.718915] (-) TimerEvent: {}
+[2.819762] (-) TimerEvent: {}
+[2.920670] (-) TimerEvent: {}
+[3.021201] (-) TimerEvent: {}
+[3.121968] (-) TimerEvent: {}
+[3.222895] (-) TimerEvent: {}
+[3.323555] (-) TimerEvent: {}
+[3.424350] (-) TimerEvent: {}
+[3.435522] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.524898] (-) TimerEvent: {}
+[3.625496] (-) TimerEvent: {}
+[3.726230] (-) TimerEvent: {}
+[3.827027] (-) TimerEvent: {}
+[3.927866] (-) TimerEvent: {}
+[4.031315] (-) TimerEvent: {}
+[4.132220] (-) TimerEvent: {}
+[4.233145] (-) TimerEvent: {}
+[4.333627] (-) TimerEvent: {}
+[4.434476] (-) TimerEvent: {}
+[4.534955] (-) TimerEvent: {}
+[4.635872] (-) TimerEvent: {}
+[4.736807] (-) TimerEvent: {}
+[4.837737] (-) TimerEvent: {}
+[4.938329] (-) TimerEvent: {}
+[5.002819] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.038846] (-) TimerEvent: {}
+[5.139724] (-) TimerEvent: {}
+[5.240306] (-) TimerEvent: {}
+[5.321361] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.340482] (-) TimerEvent: {}
+[5.441320] (-) TimerEvent: {}
+[5.479234] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.479697] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.479906] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.541841] (-) TimerEvent: {}
+[5.642710] (-) TimerEvent: {}
+[5.743583] (-) TimerEvent: {}
+[5.844497] (-) TimerEvent: {}
+[5.945445] (-) TimerEvent: {}
+[5.993704] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.045974] (-) TimerEvent: {}
+[6.146927] (-) TimerEvent: {}
+[6.247521] (-) TimerEvent: {}
+[6.348454] (-) TimerEvent: {}
+[6.449021] (-) TimerEvent: {}
+[6.549970] (-) TimerEvent: {}
+[6.650959] (-) TimerEvent: {}
+[6.751932] (-) TimerEvent: {}
+[6.852897] (-) TimerEvent: {}
+[6.953867] (-) TimerEvent: {}
+[7.054822] (-) TimerEvent: {}
+[7.155802] (-) TimerEvent: {}
+[7.256765] (-) TimerEvent: {}
+[7.357754] (-) TimerEvent: {}
+[7.458360] (-) TimerEvent: {}
+[7.559272] (-) TimerEvent: {}
+[7.660220] (-) TimerEvent: {}
+[7.761179] (-) TimerEvent: {}
+[7.862133] (-) TimerEvent: {}
+[7.963120] (-) TimerEvent: {}
+[8.064047] (-) TimerEvent: {}
+[8.165017] (-) TimerEvent: {}
+[8.266010] (-) TimerEvent: {}
+[8.366610] (-) TimerEvent: {}
+[8.467192] (-) TimerEvent: {}
+[8.557627] (my_first_packgae_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.566149] (my_first_packgae_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.567262] (-) TimerEvent: {}
+[8.668047] (-) TimerEvent: {}
+[8.769026] (-) TimerEvent: {}
+[8.852809] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.869238] (-) TimerEvent: {}
+[8.970188] (-) TimerEvent: {}
+[9.071159] (-) TimerEvent: {}
+[9.172121] (-) TimerEvent: {}
+[9.273047] (-) TimerEvent: {}
+[9.373667] (-) TimerEvent: {}
+[9.474256] (-) TimerEvent: {}
+[9.574867] (-) TimerEvent: {}
+[9.675513] (-) TimerEvent: {}
+[9.776475] (-) TimerEvent: {}
+[9.877410] (-) TimerEvent: {}
+[9.978379] (-) TimerEvent: {}
+[10.079317] (-) TimerEvent: {}
+[10.180244] (-) TimerEvent: {}
+[10.281197] (-) TimerEvent: {}
+[10.381874] (-) TimerEvent: {}
+[10.482947] (-) TimerEvent: {}
+[10.583929] (-) TimerEvent: {}
+[10.684894] (-) TimerEvent: {}
+[10.785867] (-) TimerEvent: {}
+[10.886801] (-) TimerEvent: {}
+[10.987312] (-) TimerEvent: {}
+[10.995147] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[11.087479] (-) TimerEvent: {}
+[11.188426] (-) TimerEvent: {}
+[11.246499] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/tsi/ros2_study/build/my_first_packgae_msgs\n'}
+[11.288620] (-) TimerEvent: {}
+[11.312487] (my_first_packgae_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.389058] (-) TimerEvent: {}
+[11.410096] (my_first_packgae_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_my_first_packgae_msgs\n'}
+[11.417073] (my_first_packgae_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.489190] (-) TimerEvent: {}
+[11.589982] (-) TimerEvent: {}
+[11.690780] (-) TimerEvent: {}
+[11.791556] (-) TimerEvent: {}
+[11.892283] (-) TimerEvent: {}
+[11.993072] (-) TimerEvent: {}
+[12.093533] (-) TimerEvent: {}
+[12.097388] (my_first_packgae_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_packgae_msgs__rosidl_generator_c\x1b[0m\n'}
+[12.160267] (my_first_packgae_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/my_first_packgae_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__functions.c.o\x1b[0m\n'}
+[12.160750] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/my_first_packgae_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_packgae_msgs/srv/detail/multi_spawn__functions.c.o\x1b[0m\n'}
+[12.194016] (-) TimerEvent: {}
+[12.294580] (-) TimerEvent: {}
+[12.378502] (my_first_packgae_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[12.379622] (my_first_packgae_msgs) StdoutLine: {'line': b'writing my_first_packgae_msgs.egg-info/PKG-INFO\n'}
+[12.388882] (my_first_packgae_msgs) StdoutLine: {'line': b'writing dependency_links to my_first_packgae_msgs.egg-info/dependency_links.txt\n'}
+[12.389982] (my_first_packgae_msgs) StdoutLine: {'line': b'writing top-level names to my_first_packgae_msgs.egg-info/top_level.txt\n'}
+[12.395025] (-) TimerEvent: {}
+[12.469173] (my_first_packgae_msgs) StdoutLine: {'line': b"reading manifest file 'my_first_packgae_msgs.egg-info/SOURCES.txt'\n"}
+[12.495491] (-) TimerEvent: {}
+[12.596235] (-) TimerEvent: {}
+[12.697057] (-) TimerEvent: {}
+[12.797924] (-) TimerEvent: {}
+[12.898585] (-) TimerEvent: {}
+[12.999509] (-) TimerEvent: {}
+[13.100455] (-) TimerEvent: {}
+[13.201382] (-) TimerEvent: {}
+[13.302306] (-) TimerEvent: {}
+[13.403219] (-) TimerEvent: {}
+[13.504165] (-) TimerEvent: {}
+[13.605042] (-) TimerEvent: {}
+[13.705620] (-) TimerEvent: {}
+[13.780168] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 10%] Built target my_first_packgae_msgs__cpp\n'}
+[13.797677] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.799369] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.805781] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.805997] (-) TimerEvent: {}
+[13.906260] (-) TimerEvent: {}
+[13.917714] (my_first_packgae_msgs) StdoutLine: {'line': b"writing manifest file 'my_first_packgae_msgs.egg-info/SOURCES.txt'\n"}
+[14.006763] (-) TimerEvent: {}
+[14.107227] (-) TimerEvent: {}
+[14.180352] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_my_first_packgae_msgs_egg\n'}
+[14.207667] (-) TimerEvent: {}
+[14.308449] (-) TimerEvent: {}
+[14.408851] (-) TimerEvent: {}
+[14.509540] (-) TimerEvent: {}
+[14.582525] (my_first_packgae_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_packgae_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[14.609692] (-) TimerEvent: {}
+[14.612807] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_packgae_msgs/srv/multi_spawn__type_support.cpp.o\x1b[0m\n'}
+[14.613232] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_packgae_msgs/msg/cmd_and_pose_vel__type_support.cpp.o\x1b[0m\n'}
+[14.710202] (-) TimerEvent: {}
+[14.811079] (-) TimerEvent: {}
+[14.911568] (-) TimerEvent: {}
+[14.977421] (my_first_packgae_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_packgae_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[15.011707] (-) TimerEvent: {}
+[15.028196] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_packgae_msgs/msg/detail/dds_fastrtps/cmd_and_pose_vel__type_support.cpp.o\x1b[0m\n'}
+[15.031169] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_packgae_msgs/srv/detail/dds_fastrtps/multi_spawn__type_support.cpp.o\x1b[0m\n'}
+[15.111870] (-) TimerEvent: {}
+[15.212412] (-) TimerEvent: {}
+[15.312794] (-) TimerEvent: {}
+[15.413522] (-) TimerEvent: {}
+[15.514004] (-) TimerEvent: {}
+[15.614553] (-) TimerEvent: {}
+[15.621348] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking C shared library libmy_first_packgae_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[15.714705] (-) TimerEvent: {}
+[15.815361] (-) TimerEvent: {}
+[15.915960] (-) TimerEvent: {}
+[16.017155] (-) TimerEvent: {}
+[16.117663] (-) TimerEvent: {}
+[16.218180] (-) TimerEvent: {}
+[16.318626] (-) TimerEvent: {}
+[16.419061] (-) TimerEvent: {}
+[16.519511] (-) TimerEvent: {}
+[16.619902] (-) TimerEvent: {}
+[16.720206] (-) TimerEvent: {}
+[16.763422] (my_first_packgae_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_packgae_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[16.801615] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp.o\x1b[0m\n'}
+[16.805575] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_packgae_msgs/srv/detail/multi_spawn__type_support.cpp.o\x1b[0m\n'}
+[16.820386] (-) TimerEvent: {}
+[16.920838] (-) TimerEvent: {}
+[17.021647] (-) TimerEvent: {}
+[17.122152] (-) TimerEvent: {}
+[17.222607] (-) TimerEvent: {}
+[17.322946] (-) TimerEvent: {}
+[17.423261] (-) TimerEvent: {}
+[17.524086] (-) TimerEvent: {}
+[17.624611] (-) TimerEvent: {}
+[17.725191] (-) TimerEvent: {}
+[17.825725] (-) TimerEvent: {}
+[17.926728] (-) TimerEvent: {}
+[17.985546] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 35%] Built target my_first_packgae_msgs__rosidl_generator_c\n'}
+[18.003475] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.003877] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.004591] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[18.026763] (-) TimerEvent: {}
+[18.127074] (-) TimerEvent: {}
+[18.227518] (-) TimerEvent: {}
+[18.328103] (-) TimerEvent: {}
+[18.428414] (-) TimerEvent: {}
+[18.528717] (-) TimerEvent: {}
+[18.629365] (-) TimerEvent: {}
+[18.730056] (-) TimerEvent: {}
+[18.830409] (-) TimerEvent: {}
+[18.925215] (my_first_packgae_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_packgae_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[18.925604] (my_first_packgae_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_packgae_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[18.926683] (my_first_packgae_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_packgae_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[18.930492] (-) TimerEvent: {}
+[18.952307] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_packgae_msgs/msg/cmd_and_pose_vel__type_support.cpp.o\x1b[0m\n'}
+[18.959997] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__type_support.c.o\x1b[0m\n'}
+[18.960640] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_packgae_msgs/srv/multi_spawn__type_support.cpp.o\x1b[0m\n'}
+[18.965938] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_packgae_msgs/srv/detail/multi_spawn__type_support.c.o\x1b[0m\n'}
+[18.969960] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__type_support_c.cpp.o\x1b[0m\n'}
+[18.970428] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_packgae_msgs/srv/detail/multi_spawn__type_support_c.cpp.o\x1b[0m\n'}
+[19.023893] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libmy_first_packgae_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[19.030618] (-) TimerEvent: {}
+[19.067846] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 61%] Built target my_first_packgae_msgs__rosidl_typesupport_introspection_c\n'}
+[19.130739] (-) TimerEvent: {}
+[19.231118] (-) TimerEvent: {}
+[19.331560] (-) TimerEvent: {}
+[19.432086] (-) TimerEvent: {}
+[19.482546] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_packgae_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[19.486408] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_packgae_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[19.532198] (-) TimerEvent: {}
+[19.599594] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_packgae_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.632335] (-) TimerEvent: {}
+[19.651531] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_packgae_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.680248] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_packgae_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.732488] (-) TimerEvent: {}
+[19.833037] (-) TimerEvent: {}
+[19.933515] (-) TimerEvent: {}
+[20.033941] (-) TimerEvent: {}
+[20.108794] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 74%] Built target my_first_packgae_msgs__rosidl_typesupport_c\n'}
+[20.109151] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 74%] Built target my_first_packgae_msgs__rosidl_typesupport_cpp\n'}
+[20.110193] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 74%] Built target my_first_packgae_msgs__rosidl_typesupport_fastrtps_c\n'}
+[20.110605] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 74%] Built target my_first_packgae_msgs__rosidl_typesupport_introspection_cpp\n'}
+[20.110886] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 74%] Built target my_first_packgae_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[20.134054] (-) TimerEvent: {}
+[20.234497] (-) TimerEvent: {}
+[20.244448] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 74%] Built target my_first_packgae_msgs\n'}
+[20.334659] (-) TimerEvent: {}
+[20.372064] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[20.434770] (-) TimerEvent: {}
+[20.535268] (-) TimerEvent: {}
+[20.635681] (-) TimerEvent: {}
+[20.735943] (-) TimerEvent: {}
+[20.836241] (-) TimerEvent: {}
+[20.936712] (-) TimerEvent: {}
+[21.037122] (-) TimerEvent: {}
+[21.115109] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 76%] Built target my_first_packgae_msgs__py\n'}
+[21.137175] (-) TimerEvent: {}
+[21.143073] (my_first_packgae_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_packgae_msgs__rosidl_generator_py\x1b[0m\n'}
+[21.198588] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/my_first_packgae_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_packgae_msgs/srv/_multi_spawn_s.c.o\x1b[0m\n'}
+[21.201966] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_first_packgae_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_packgae_msgs/msg/_cmd_and_pose_vel_s.c.o\x1b[0m\n'}
+[21.238086] (-) TimerEvent: {}
+[21.338545] (-) TimerEvent: {}
+[21.438973] (-) TimerEvent: {}
+[21.549742] (-) TimerEvent: {}
+[21.650202] (-) TimerEvent: {}
+[21.750644] (-) TimerEvent: {}
+[21.851061] (-) TimerEvent: {}
+[21.951442] (-) TimerEvent: {}
+[22.051846] (-) TimerEvent: {}
+[22.152305] (-) TimerEvent: {}
+[22.252641] (-) TimerEvent: {}
+[22.353048] (-) TimerEvent: {}
+[22.441066] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_packgae_msgs/libmy_first_packgae_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[22.453193] (-) TimerEvent: {}
+[22.553535] (-) TimerEvent: {}
+[22.633388] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 84%] Built target my_first_packgae_msgs__rosidl_generator_py\n'}
+[22.648018] (my_first_packgae_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_packgae_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[22.653670] (-) TimerEvent: {}
+[22.661701] (my_first_packgae_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_packgae_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[22.662773] (my_first_packgae_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_first_packgae_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[22.679921] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_first_packgae_msgs/_my_first_packgae_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[22.685339] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_first_packgae_msgs/_my_first_packgae_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.687785] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_first_packgae_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_first_packgae_msgs/_my_first_packgae_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[22.753787] (-) TimerEvent: {}
+[22.852230] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.853894] (-) TimerEvent: {}
+[22.861302] (my_first_packgae_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.864971] (my_first_packgae_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.954380] (-) TimerEvent: {}
+[22.995081] (my_first_packgae_msgs) StdoutLine: {'line': b'[100%] Built target my_first_packgae_msgs__rosidl_typesupport_c__pyext\n'}
+[22.995580] (my_first_packgae_msgs) StdoutLine: {'line': b'[100%] Built target my_first_packgae_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[22.995837] (my_first_packgae_msgs) StdoutLine: {'line': b'[100%] Built target my_first_packgae_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[23.018949] (my_first_packgae_msgs) CommandEnded: {'returncode': 0}
+[23.020377] (my_first_packgae_msgs) JobProgress: {'identifier': 'my_first_packgae_msgs', 'progress': 'install'}
+[23.046587] (my_first_packgae_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tsi/ros2_study/build/my_first_packgae_msgs'], 'cwd': '/home/tsi/ros2_study/build/my_first_packgae_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'tsi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tsi/ros2_study/install/my_first_packgae_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/tsi'), ('OLDPWD', '/home/tsi/ros2_study/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1620'), ('SYSTEMD_EXEC_PID', '2089'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2483'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tsi/ros2_study/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tsi'), ('JOURNAL_STREAM', '8:10890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tsi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/tsi/.local/bin:/home/tsi/.local/bin:/opt/ros/humble/bin:/home/tsi/.local/bin:/home/tsi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tsikorea:@/tmp/.ICE-unix/1769,unix/tsikorea:/tmp/.ICE-unix/1769'), ('INVOCATION_ID', '0f9304a6ca94455284409ab38e5a1b30'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KQAX62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/tsi/ros2_study/install/my_first_packgae_msgs:/home/tsi/ros2_study/install/my_first_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:49d81b4c-1fae-45d8-8c06-c8c981a9ea7b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tsi/ros2_study/build/my_first_packgae_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages:/home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tsi/ros2_study/install/my_first_packgae_msgs:/home/tsi/ros2_study/install/my_first_package:/opt/ros/humble')]), 'shell': False}
+[23.054530] (-) TimerEvent: {}
+[23.069938] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.070371] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/ament_index/resource_index/rosidl_interfaces/my_first_packgae_msgs\n'}
+[23.070585] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs\n'}
+[23.070718] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg\n'}
+[23.070841] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/cmd_and_pose_vel.h\n'}
+[23.071017] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.071254] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail\n'}
+[23.071425] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__struct.h\n'}
+[23.071651] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__functions.h\n'}
+[23.071842] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__type_support.h\n'}
+[23.072029] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__functions.c\n'}
+[23.072338] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv\n'}
+[23.072446] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/multi_spawn.h\n'}
+[23.072542] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail\n'}
+[23.072638] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__functions.h\n'}
+[23.072736] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__type_support.h\n'}
+[23.072831] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__struct.h\n'}
+[23.072925] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__functions.c\n'}
+[23.073018] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/library_path.sh\n'}
+[23.073141] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/library_path.dsv\n'}
+[23.073558] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_generator_c.so\n'}
+[23.074157] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_generator_c.so" to ""\n'}
+[23.074434] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs\n'}
+[23.074635] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg\n'}
+[23.074760] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.074870] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail\n'}
+[23.074994] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h\n'}
+[23.075184] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv\n'}
+[23.075315] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail\n'}
+[23.075456] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[23.075785] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[23.076044] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[23.076405] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs\n'}
+[23.076811] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg\n'}
+[23.077077] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.077234] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail\n'}
+[23.077349] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h\n'}
+[23.077450] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__type_support.c\n'}
+[23.077696] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv\n'}
+[23.077958] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail\n'}
+[23.078272] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_c.h\n'}
+[23.078542] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__type_support.c\n'}
+[23.078882] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_introspection_c.so\n'}
+[23.079135] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[23.079626] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_c.so\n'}
+[23.079957] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_c.so" to ""\n'}
+[23.080343] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs\n'}
+[23.080742] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg\n'}
+[23.081110] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[23.081506] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/cmd_and_pose_vel.hpp\n'}
+[23.081947] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail\n'}
+[23.082216] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__builder.hpp\n'}
+[23.082464] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__type_support.hpp\n'}
+[23.082713] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__struct.hpp\n'}
+[23.083014] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__traits.hpp\n'}
+[23.083272] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv\n'}
+[23.083526] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/multi_spawn.hpp\n'}
+[23.083977] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail\n'}
+[23.084292] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__struct.hpp\n'}
+[23.084536] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__type_support.hpp\n'}
+[23.084785] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__traits.hpp\n'}
+[23.085087] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__builder.hpp\n'}
+[23.085411] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs\n'}
+[23.085655] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg\n'}
+[23.085940] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.086364] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail\n'}
+[23.086742] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.087201] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/dds_fastrtps\n'}
+[23.087561] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv\n'}
+[23.087905] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail\n'}
+[23.088233] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/dds_fastrtps\n'}
+[23.088501] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.088689] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.088880] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[23.089070] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs\n'}
+[23.089329] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg\n'}
+[23.089503] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail\n'}
+[23.089684] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.089850] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp\n'}
+[23.090025] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv\n'}
+[23.090211] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail\n'}
+[23.090383] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.090552] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__type_support.cpp\n'}
+[23.090730] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[23.091126] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[23.091676] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_cpp.so\n'}
+[23.092031] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[23.092509] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/pythonpath.sh\n'}
+[23.092905] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/pythonpath.dsv\n'}
+[23.093338] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs-0.0.0-py3.10.egg-info\n'}
+[23.093538] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[23.093726] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[23.093925] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[23.094199] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[23.094663] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs\n'}
+[23.095200] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.095629] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.095799] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/msg\n'}
+[23.095965] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/msg/_cmd_and_pose_vel_s.c\n'}
+[23.096144] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/msg/__init__.py\n'}
+[23.096324] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/msg/_cmd_and_pose_vel.py\n'}
+[23.096494] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/_my_first_packgae_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[23.096660] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/_my_first_packgae_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[23.096821] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/__init__.py\n'}
+[23.097009] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.097304] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/_my_first_packgae_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[23.097635] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/libmy_first_packgae_msgs__rosidl_generator_py.so\n'}
+[23.097804] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/srv\n'}
+[23.097976] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/srv/_multi_spawn.py\n'}
+[23.098160] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/srv/__init__.py\n'}
+[23.098282] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/srv/_multi_spawn_s.c\n'}
+[23.154664] (-) TimerEvent: {}
+[23.255154] (-) TimerEvent: {}
+[23.355495] (-) TimerEvent: {}
+[23.394961] (my_first_packgae_msgs) StdoutLine: {'line': b"Listing '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs'...\n"}
+[23.395455] (my_first_packgae_msgs) StdoutLine: {'line': b"Compiling '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/__init__.py'...\n"}
+[23.395745] (my_first_packgae_msgs) StdoutLine: {'line': b"Listing '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/msg'...\n"}
+[23.395985] (my_first_packgae_msgs) StdoutLine: {'line': b"Compiling '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/msg/__init__.py'...\n"}
+[23.396239] (my_first_packgae_msgs) StdoutLine: {'line': b"Compiling '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/msg/_cmd_and_pose_vel.py'...\n"}
+[23.396507] (my_first_packgae_msgs) StdoutLine: {'line': b"Listing '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/srv'...\n"}
+[23.396763] (my_first_packgae_msgs) StdoutLine: {'line': b"Compiling '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/srv/__init__.py'...\n"}
+[23.397012] (my_first_packgae_msgs) StdoutLine: {'line': b"Compiling '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/srv/_multi_spawn.py'...\n"}
+[23.403755] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.405211] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[23.405840] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.407147] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[23.407739] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.408850] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[23.455620] (-) TimerEvent: {}
+[23.556109] (-) TimerEvent: {}
+[23.656605] (-) TimerEvent: {}
+[23.666215] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_generator_py.so\n'}
+[23.667695] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_generator_py.so" to ""\n'}
+[23.667940] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/msg/CmdAndPoseVel.idl\n'}
+[23.668144] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/srv/MultiSpawn.idl\n'}
+[23.668441] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/msg/CmdAndPoseVel.msg\n'}
+[23.668629] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/srv/MultiSpawn.srv\n'}
+[23.668904] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/srv/MultiSpawn_Request.msg\n'}
+[23.669277] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/srv/MultiSpawn_Response.msg\n'}
+[23.669628] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/ament_index/resource_index/package_run_dependencies/my_first_packgae_msgs\n'}
+[23.669811] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/ament_index/resource_index/parent_prefix_path/my_first_packgae_msgs\n'}
+[23.670185] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/ament_prefix_path.sh\n'}
+[23.670377] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/ament_prefix_path.dsv\n'}
+[23.670710] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/path.sh\n'}
+[23.670879] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/path.dsv\n'}
+[23.671236] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/local_setup.bash\n'}
+[23.671411] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/local_setup.sh\n'}
+[23.671594] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/local_setup.zsh\n'}
+[23.671776] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/local_setup.dsv\n'}
+[23.671954] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/package.dsv\n'}
+[23.672386] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/ament_index/resource_index/packages/my_first_packgae_msgs\n'}
+[23.736846] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_generator_cExport.cmake\n'}
+[23.737380] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[23.756764] (-) TimerEvent: {}
+[23.780506] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[23.780844] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[23.833271] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[23.833646] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[23.857258] (-) TimerEvent: {}
+[23.865344] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_cExport.cmake\n'}
+[23.866430] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[23.866702] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_generator_cppExport.cmake\n'}
+[23.912867] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[23.913266] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[23.957759] (-) TimerEvent: {}
+[23.976119] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[23.976454] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[23.977013] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[23.977295] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[23.977575] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_generator_pyExport.cmake\n'}
+[23.977784] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[23.978064] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[23.978299] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.978447] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.978587] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.978727] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[23.978868] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.979007] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[23.979161] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgsConfig.cmake\n'}
+[23.979310] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgsConfig-version.cmake\n'}
+[23.979449] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/package.xml\n'}
+[23.996168] (my_first_packgae_msgs) CommandEnded: {'returncode': 0}
+[24.058265] (-) TimerEvent: {}
+[24.159112] (-) TimerEvent: {}
+[24.259753] (-) TimerEvent: {}
+[24.360590] (-) TimerEvent: {}
+[24.450488] (my_first_packgae_msgs) JobEnded: {'identifier': 'my_first_packgae_msgs', 'rc': 0}
+[24.501525] (-) TimerEvent: {}
+[24.501810] (-) EventReactorShutdown: {}

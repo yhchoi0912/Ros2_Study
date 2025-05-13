@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_first_packgae_msgs/action/DistTurtle.action
+// generated code does not contain a copyright notice
+
+
+module my_first_packgae_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Request")
+    struct DistTurtle_Goal {
+      double linear_x;
+
+      double angular_z;
+
+      double dist;
+    };
+    @verbatim (language="comment", text=
+      "Request")
+    struct DistTurtle_Result {
+      double pos_x;
+
+      double pos_y;
+
+      double pos_dist;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct DistTurtle_Feedback {
+      double remined_dist;
+    };
+  };
+};

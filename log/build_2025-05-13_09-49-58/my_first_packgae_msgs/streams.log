@@ -1,0 +1,182 @@
+[0.308s] Invoking command in '/home/tsi/ros2_study/build/my_first_packgae_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/tsi/ros2_study/build/my_first_packgae_msgs -- -j12 -l12
+[0.377s] [  2%] Built target my_first_packgae_msgs__cpp
+[0.387s] [ 12%] Built target my_first_packgae_msgs__rosidl_generator_c
+[0.410s] [ 12%] Built target ament_cmake_python_copy_my_first_packgae_msgs
+[0.417s] [ 23%] Built target my_first_packgae_msgs__rosidl_typesupport_cpp
+[0.418s] [ 33%] Built target my_first_packgae_msgs__rosidl_typesupport_introspection_cpp
+[0.418s] [ 43%] Built target my_first_packgae_msgs__rosidl_typesupport_fastrtps_cpp
+[0.425s] [ 53%] Built target my_first_packgae_msgs__rosidl_typesupport_fastrtps_c
+[0.430s] [ 64%] Built target my_first_packgae_msgs__rosidl_typesupport_c
+[0.433s] [ 74%] Built target my_first_packgae_msgs__rosidl_typesupport_introspection_c
+[0.461s] [ 74%] Built target my_first_packgae_msgs
+[0.485s] [ 76%] Built target my_first_packgae_msgs__py
+[0.519s] [ 84%] Built target my_first_packgae_msgs__rosidl_generator_py
+[0.556s] [ 89%] Built target my_first_packgae_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.561s] [ 94%] Built target my_first_packgae_msgs__rosidl_typesupport_c__pyext
+[0.568s] [100%] Built target my_first_packgae_msgs__rosidl_typesupport_introspection_c__pyext
+[0.832s] running egg_info
+[0.833s] writing my_first_packgae_msgs.egg-info/PKG-INFO
+[0.833s] writing dependency_links to my_first_packgae_msgs.egg-info/dependency_links.txt
+[0.834s] writing top-level names to my_first_packgae_msgs.egg-info/top_level.txt
+[0.839s] reading manifest file 'my_first_packgae_msgs.egg-info/SOURCES.txt'
+[0.840s] writing manifest file 'my_first_packgae_msgs.egg-info/SOURCES.txt'
+[0.898s] [100%] Built target ament_cmake_python_build_my_first_packgae_msgs_egg
+[0.916s] Invoked command in '/home/tsi/ros2_study/build/my_first_packgae_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/tsi/ros2_study/build/my_first_packgae_msgs -- -j12 -l12
+[0.929s] Invoking command in '/home/tsi/ros2_study/build/my_first_packgae_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/tsi/ros2_study/build/my_first_packgae_msgs
+[0.939s] -- Install configuration: ""
+[0.939s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/ament_index/resource_index/rosidl_interfaces/my_first_packgae_msgs
+[0.940s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs
+[0.940s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg
+[0.940s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/cmd_and_pose_vel.h
+[0.940s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.940s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail
+[0.940s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__struct.h
+[0.940s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__functions.h
+[0.940s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__type_support.h
+[0.940s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__functions.c
+[0.940s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv
+[0.941s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/multi_spawn.h
+[0.941s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail
+[0.941s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__functions.h
+[0.941s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__type_support.h
+[0.941s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__struct.h
+[0.941s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__functions.c
+[0.941s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/library_path.sh
+[0.941s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/library_path.dsv
+[0.941s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_generator_c.so
+[0.942s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs
+[0.942s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg
+[0.942s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.942s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail
+[0.942s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h
+[0.942s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv
+[0.942s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail
+[0.942s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_c.h
+[0.942s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_fastrtps_c.so
+[0.942s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs
+[0.942s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg
+[0.943s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.943s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail
+[0.943s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h
+[0.943s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__type_support.c
+[0.943s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv
+[0.943s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail
+[0.943s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_c.h
+[0.943s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__type_support.c
+[0.944s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_introspection_c.so
+[0.944s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_c.so
+[0.944s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs
+[0.944s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg
+[0.944s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.944s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/cmd_and_pose_vel.hpp
+[0.944s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail
+[0.944s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__builder.hpp
+[0.944s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__type_support.hpp
+[0.944s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__struct.hpp
+[0.945s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__traits.hpp
+[0.945s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv
+[0.945s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/multi_spawn.hpp
+[0.945s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail
+[0.945s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__struct.hpp
+[0.945s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__type_support.hpp
+[0.945s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__traits.hpp
+[0.945s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__builder.hpp
+[0.946s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs
+[0.946s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg
+[0.946s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.946s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail
+[0.946s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[0.946s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/dds_fastrtps
+[0.946s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv
+[0.946s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail
+[0.946s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/dds_fastrtps
+[0.946s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[0.946s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.947s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs
+[0.947s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg
+[0.947s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail
+[0.947s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp
+[0.947s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp
+[0.947s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv
+[0.947s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail
+[0.947s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_cpp.hpp
+[0.947s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/include/my_first_packgae_msgs/my_first_packgae_msgs/srv/detail/multi_spawn__type_support.cpp
+[0.947s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_introspection_cpp.so
+[0.947s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_typesupport_cpp.so
+[0.948s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/pythonpath.sh
+[0.948s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/pythonpath.dsv
+[0.948s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs-0.0.0-py3.10.egg-info
+[0.948s] -- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.948s] -- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.948s] -- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.948s] -- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.948s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs
+[0.948s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.948s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.948s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/msg
+[0.948s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/msg/_cmd_and_pose_vel_s.c
+[0.949s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/msg/__init__.py
+[0.949s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/msg/_cmd_and_pose_vel.py
+[0.949s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/_my_first_packgae_msgs_s.ep.rosidl_typesupport_c.c
+[0.949s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/_my_first_packgae_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.949s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/__init__.py
+[0.949s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.949s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/_my_first_packgae_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.949s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/libmy_first_packgae_msgs__rosidl_generator_py.so
+[0.949s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/srv
+[0.949s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/srv/_multi_spawn.py
+[0.949s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/srv/__init__.py
+[0.950s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/srv/_multi_spawn_s.c
+[0.979s] Listing '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs'...
+[0.980s] Listing '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/msg'...
+[0.980s] Listing '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/srv'...
+[0.986s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.987s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.988s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages/my_first_packgae_msgs/my_first_packgae_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.989s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/lib/libmy_first_packgae_msgs__rosidl_generator_py.so
+[0.990s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/msg/CmdAndPoseVel.idl
+[0.990s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/srv/MultiSpawn.idl
+[0.990s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/msg/CmdAndPoseVel.msg
+[0.990s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/srv/MultiSpawn.srv
+[0.990s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/srv/MultiSpawn_Request.msg
+[0.991s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/srv/MultiSpawn_Response.msg
+[0.991s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/ament_index/resource_index/package_run_dependencies/my_first_packgae_msgs
+[0.991s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/ament_index/resource_index/parent_prefix_path/my_first_packgae_msgs
+[0.991s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/ament_prefix_path.sh
+[0.991s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/ament_prefix_path.dsv
+[0.992s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/path.sh
+[0.992s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/environment/path.dsv
+[0.992s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/local_setup.bash
+[0.992s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/local_setup.sh
+[0.992s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/local_setup.zsh
+[0.993s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/local_setup.dsv
+[0.993s] -- Installing: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/package.dsv
+[0.993s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/ament_index/resource_index/packages/my_first_packgae_msgs
+[0.994s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_generator_cExport.cmake
+[0.994s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.994s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.995s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.995s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.995s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.995s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_cExport.cmake
+[0.995s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.996s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_generator_cppExport.cmake
+[0.996s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.996s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.996s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.997s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.997s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_cppExport.cmake
+[0.997s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.997s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_generator_pyExport.cmake
+[0.997s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/export_my_first_packgae_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.997s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/rosidl_cmake-extras.cmake
+[0.997s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.998s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.998s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.998s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.998s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.998s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.998s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgsConfig.cmake
+[0.998s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/cmake/my_first_packgae_msgsConfig-version.cmake
+[0.998s] -- Up-to-date: /home/tsi/ros2_study/install/my_first_packgae_msgs/share/my_first_packgae_msgs/package.xml
+[1.003s] Invoked command in '/home/tsi/ros2_study/build/my_first_packgae_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/tsi/ros2_study/build/my_first_packgae_msgs

@@ -1,0 +1,18 @@
+[0.295s] Invoking command in '/home/tsi/ros2_study/build/my_first_packgae_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/tsi/ros2_study/build/my_first_packgae_msgs -- -j12 -l12
+[4.188s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.080s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.597s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.031s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.353s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.542s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[11.543s]   rosidl_generate_interfaces() the passed file 'srv/MulitSpawn.srv' doesn't
+[11.543s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[11.543s]   '/home/tsi/ros2_study/src/my_first_packgae_msgs'
+[11.543s] Call Stack (most recent call first):
+[11.543s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[11.543s] 
+[11.544s] [0m
+[11.544s] -- Configuring incomplete, errors occurred!
+[11.544s] See also "/home/tsi/ros2_study/build/my_first_packgae_msgs/CMakeFiles/CMakeOutput.log".
+[11.724s] gmake: *** [Makefile:747: cmake_check_build_system] 오류 1
+[11.730s] Invoked command in '/home/tsi/ros2_study/build/my_first_packgae_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/tsi/ros2_study/build/my_first_packgae_msgs -- -j12 -l12

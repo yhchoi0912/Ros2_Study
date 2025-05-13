@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000314] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.000392] (my_first_packgae_msgs) JobQueued: {'identifier': 'my_first_packgae_msgs', 'dependencies': OrderedDict()}
+[0.000553] (my_first_packgae_msgs) JobStarted: {'identifier': 'my_first_packgae_msgs'}
+[0.099332] (-) TimerEvent: {}
+[0.167870] (my_first_packgae_msgs) JobProgress: {'identifier': 'my_first_packgae_msgs', 'progress': 'cmake'}
+[0.199845] (-) TimerEvent: {}
+[0.291584] (my_first_packgae_msgs) JobProgress: {'identifier': 'my_first_packgae_msgs', 'progress': 'build'}
+[0.293705] (my_first_packgae_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tsi/ros2_study/build/my_first_packgae_msgs', '--', '-j12', '-l12'], 'cwd': '/home/tsi/ros2_study/build/my_first_packgae_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'tsi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tsi/ros2_study/install/my_first_packgae_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/tsi'), ('OLDPWD', '/home/tsi/ros2_study/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1620'), ('SYSTEMD_EXEC_PID', '2089'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2483'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tsi/ros2_study/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tsi'), ('JOURNAL_STREAM', '8:10890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tsi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/tsi/.local/bin:/home/tsi/.local/bin:/opt/ros/humble/bin:/home/tsi/.local/bin:/home/tsi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tsikorea:@/tmp/.ICE-unix/1769,unix/tsikorea:/tmp/.ICE-unix/1769'), ('INVOCATION_ID', '0f9304a6ca94455284409ab38e5a1b30'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KQAX62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/tsi/ros2_study/install/my_first_packgae_msgs:/home/tsi/ros2_study/install/my_first_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:49d81b4c-1fae-45d8-8c06-c8c981a9ea7b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tsi/ros2_study/build/my_first_packgae_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tsi/ros2_study/install/my_first_packgae_msgs/local/lib/python3.10/dist-packages:/home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tsi/ros2_study/install/my_first_packgae_msgs:/home/tsi/ros2_study/install/my_first_package:/opt/ros/humble')]), 'shell': False}
+[0.299960] (-) TimerEvent: {}
+[0.400774] (-) TimerEvent: {}
+[0.501271] (-) TimerEvent: {}
+[0.601822] (-) TimerEvent: {}
+[0.702393] (-) TimerEvent: {}
+[0.803293] (-) TimerEvent: {}
+[0.904269] (-) TimerEvent: {}
+[1.005250] (-) TimerEvent: {}
+[1.106233] (-) TimerEvent: {}
+[1.207227] (-) TimerEvent: {}
+[1.307791] (-) TimerEvent: {}
+[1.408256] (-) TimerEvent: {}
+[1.509167] (-) TimerEvent: {}
+[1.610036] (-) TimerEvent: {}
+[1.710593] (-) TimerEvent: {}
+[1.811472] (-) TimerEvent: {}
+[1.912050] (-) TimerEvent: {}
+[2.012934] (-) TimerEvent: {}
+[2.113779] (-) TimerEvent: {}
+[2.214630] (-) TimerEvent: {}
+[2.315489] (-) TimerEvent: {}
+[2.416427] (-) TimerEvent: {}
+[2.517012] (-) TimerEvent: {}
+[2.617395] (-) TimerEvent: {}
+[2.717843] (-) TimerEvent: {}
+[2.818765] (-) TimerEvent: {}
+[2.919290] (-) TimerEvent: {}
+[3.020240] (-) TimerEvent: {}
+[3.121175] (-) TimerEvent: {}
+[3.222162] (-) TimerEvent: {}
+[3.323107] (-) TimerEvent: {}
+[3.424027] (-) TimerEvent: {}
+[3.524592] (-) TimerEvent: {}
+[3.625489] (-) TimerEvent: {}
+[3.726393] (-) TimerEvent: {}
+[3.826730] (-) TimerEvent: {}
+[3.927512] (-) TimerEvent: {}
+[4.028000] (-) TimerEvent: {}
+[4.128860] (-) TimerEvent: {}
+[4.188165] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.228981] (-) TimerEvent: {}
+[4.329755] (-) TimerEvent: {}
+[4.430607] (-) TimerEvent: {}
+[4.531450] (-) TimerEvent: {}
+[4.631927] (-) TimerEvent: {}
+[4.732474] (-) TimerEvent: {}
+[4.833435] (-) TimerEvent: {}
+[4.934395] (-) TimerEvent: {}
+[5.034988] (-) TimerEvent: {}
+[5.135483] (-) TimerEvent: {}
+[5.236216] (-) TimerEvent: {}
+[5.336758] (-) TimerEvent: {}
+[5.437680] (-) TimerEvent: {}
+[5.538213] (-) TimerEvent: {}
+[5.638708] (-) TimerEvent: {}
+[5.739251] (-) TimerEvent: {}
+[5.840241] (-) TimerEvent: {}
+[5.940856] (-) TimerEvent: {}
+[6.041352] (-) TimerEvent: {}
+[6.142017] (-) TimerEvent: {}
+[6.242569] (-) TimerEvent: {}
+[6.343394] (-) TimerEvent: {}
+[6.444301] (-) TimerEvent: {}
+[6.545266] (-) TimerEvent: {}
+[6.646182] (-) TimerEvent: {}
+[6.746763] (-) TimerEvent: {}
+[6.847735] (-) TimerEvent: {}
+[6.948296] (-) TimerEvent: {}
+[7.049248] (-) TimerEvent: {}
+[7.080368] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.149725] (-) TimerEvent: {}
+[7.250529] (-) TimerEvent: {}
+[7.351424] (-) TimerEvent: {}
+[7.452029] (-) TimerEvent: {}
+[7.553059] (-) TimerEvent: {}
+[7.597347] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.653223] (-) TimerEvent: {}
+[7.754179] (-) TimerEvent: {}
+[7.855147] (-) TimerEvent: {}
+[7.956105] (-) TimerEvent: {}
+[8.030808] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.056261] (-) TimerEvent: {}
+[8.157325] (-) TimerEvent: {}
+[8.258278] (-) TimerEvent: {}
+[8.359220] (-) TimerEvent: {}
+[8.460202] (-) TimerEvent: {}
+[8.561167] (-) TimerEvent: {}
+[8.662044] (-) TimerEvent: {}
+[8.762625] (-) TimerEvent: {}
+[8.863184] (-) TimerEvent: {}
+[8.964145] (-) TimerEvent: {}
+[9.065058] (-) TimerEvent: {}
+[9.166018] (-) TimerEvent: {}
+[9.266770] (-) TimerEvent: {}
+[9.367721] (-) TimerEvent: {}
+[9.468672] (-) TimerEvent: {}
+[9.569238] (-) TimerEvent: {}
+[9.670176] (-) TimerEvent: {}
+[9.771020] (-) TimerEvent: {}
+[9.871484] (-) TimerEvent: {}
+[9.972399] (-) TimerEvent: {}
+[10.072964] (-) TimerEvent: {}
+[10.173579] (-) TimerEvent: {}
+[10.274405] (-) TimerEvent: {}
+[10.353059] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.374915] (-) TimerEvent: {}
+[10.475724] (-) TimerEvent: {}
+[10.576655] (-) TimerEvent: {}
+[10.677621] (-) TimerEvent: {}
+[10.778556] (-) TimerEvent: {}
+[10.879493] (-) TimerEvent: {}
+[10.980459] (-) TimerEvent: {}
+[11.081424] (-) TimerEvent: {}
+[11.182369] (-) TimerEvent: {}
+[11.283323] (-) TimerEvent: {}
+[11.384154] (-) TimerEvent: {}
+[11.485125] (-) TimerEvent: {}
+[11.542454] (my_first_packgae_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[11.543067] (my_first_packgae_msgs) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'srv/MulitSpawn.srv' doesn't\n"}
+[11.543252] (my_first_packgae_msgs) StderrLine: {'line': b'  exist relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[11.543402] (my_first_packgae_msgs) StderrLine: {'line': b"  '/home/tsi/ros2_study/src/my_first_packgae_msgs'\n"}
+[11.543554] (my_first_packgae_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[11.543710] (my_first_packgae_msgs) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[11.543850] (my_first_packgae_msgs) StderrLine: {'line': b'\n'}
+[11.543987] (my_first_packgae_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[11.544123] (my_first_packgae_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[11.544278] (my_first_packgae_msgs) StdoutLine: {'line': b'See also "/home/tsi/ros2_study/build/my_first_packgae_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[11.585275] (-) TimerEvent: {}
+[11.686253] (-) TimerEvent: {}
+[11.724379] (my_first_packgae_msgs) StderrLine: {'line': b'gmake: *** [Makefile:747: cmake_check_build_system] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[11.730081] (my_first_packgae_msgs) CommandEnded: {'returncode': 2}
+[11.786739] (-) TimerEvent: {}
+[11.887608] (-) TimerEvent: {}
+[11.988511] (-) TimerEvent: {}
+[12.089140] (-) TimerEvent: {}
+[12.189663] (-) TimerEvent: {}
+[12.290518] (-) TimerEvent: {}
+[12.391326] (-) TimerEvent: {}
+[12.492429] (-) TimerEvent: {}
+[12.592956] (-) TimerEvent: {}
+[12.677634] (my_first_packgae_msgs) JobEnded: {'identifier': 'my_first_packgae_msgs', 'rc': 2}
+[12.689038] (-) EventReactorShutdown: {}

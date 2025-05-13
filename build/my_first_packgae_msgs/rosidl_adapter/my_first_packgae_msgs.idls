@@ -1,0 +1,3 @@
+/home/tsi/ros2_study/build/my_first_packgae_msgs/rosidl_adapter/my_first_packgae_msgs:msg/CmdAndPoseVel.idl
+/home/tsi/ros2_study/build/my_first_packgae_msgs/rosidl_adapter/my_first_packgae_msgs:srv/MultiSpawn.idl
+/home/tsi/ros2_study/build/my_first_packgae_msgs/rosidl_adapter/my_first_packgae_msgs:action/DistTurtle.idl

@@ -1,0 +1,29 @@
+[0.690s] Invoking command in '/home/tsi/ros2_study/src/my_first_package': PYTHONPATH=/home/tsi/ros2_study/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/tsi/ros2_study/build/my_first_package/build install --record /home/tsi/ros2_study/build/my_first_package/install.log --single-version-externally-managed install_data
+[0.934s] running egg_info
+[0.935s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[0.935s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[0.935s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[0.935s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[0.936s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[0.937s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.938s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.938s] running build
+[0.939s] running build_py
+[0.939s] copying my_first_package/dist_turtle_action_server.py -> /home/tsi/ros2_study/build/my_first_package/build/lib/my_first_package
+[0.939s] running install
+[0.940s] running install_lib
+[0.940s] copying /home/tsi/ros2_study/build/my_first_package/build/lib/my_first_package/dist_turtle_action_server.py -> /home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[0.940s] byte-compiling /home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package/dist_turtle_action_server.py to dist_turtle_action_server.cpython-310.pyc
+[0.941s] running install_data
+[0.941s] running install_egg_info
+[0.942s] removing '/home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.943s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[0.943s] running install_scripts
+[0.963s] Installing dist_turtle_action_server script to /home/tsi/ros2_study/install/my_first_package/lib/my_first_package
+[0.963s] Installing my_first_node script to /home/tsi/ros2_study/install/my_first_package/lib/my_first_package
+[0.963s] Installing my_publisher script to /home/tsi/ros2_study/install/my_first_package/lib/my_first_package
+[0.964s] Installing my_service_server script to /home/tsi/ros2_study/install/my_first_package/lib/my_first_package
+[0.964s] Installing my_subscriber script to /home/tsi/ros2_study/install/my_first_package/lib/my_first_package
+[0.964s] Installing turtle_cmd_and_pose script to /home/tsi/ros2_study/install/my_first_package/lib/my_first_package
+[0.964s] writing list of installed files to '/home/tsi/ros2_study/build/my_first_package/install.log'
+[0.991s] Invoked command in '/home/tsi/ros2_study/src/my_first_package' returned '0': PYTHONPATH=/home/tsi/ros2_study/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/tsi/ros2_study/build/my_first_package/build install --record /home/tsi/ros2_study/build/my_first_package/install.log --single-version-externally-managed install_data
