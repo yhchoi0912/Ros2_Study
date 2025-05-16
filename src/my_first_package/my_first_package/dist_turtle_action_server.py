@@ -18,7 +18,7 @@ class Trutlesub_Action(TurtlesimSubscriber):
         self.ac_server = ac_server
 
     def callback(self, msg):
-        self.ac_server.current_pose = msg
+        self.ac_server.current_pose = msg # ac_server이게 객체 선언시 인자로 들어오면 TurtlesimSubscriber여기서 받은 msg를 인자로 넘겨준다
     
 
 class DistTurtleServer(Node):
@@ -54,8 +54,8 @@ class DistTurtleServer(Node):
         while True:
             self.total_dist += self.calc_diff_pose()
             feedback_msg.remined_dist = goal_handle.request.dist - self.total_dist
-            goal_handle.publish_feedback(feedback_msg)
-            self.publisher.publish(msg)
+            goal_handle.publish_feedback(feedback_msg) # 커멘드라인에서 send_gaol했으면 커멘드 라인으로 보냄
+            self.publisher.publish(msg) # 터틀심으로 감
             time.sleep(0.01)
 
             if feedback_msg.remined_dist < 0.2:
