@@ -16,6 +16,8 @@
 /home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package/__pycache__/dist_turtle_action_server.cpython-310.pyc
 /home/tsi/ros2_study/install/my_first_package/share/ament_index/resource_index/packages/my_first_package
 /home/tsi/ros2_study/install/my_first_package/share/my_first_package/package.xml
+/home/tsi/ros2_study/install/my_first_package/share/my_first_package/launch/turtlesim_and_teleop.launch.py
+/home/tsi/ros2_study/install/my_first_package/share/my_first_package/launch/dist_turtle_action_node.launch.py
 /home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info/entry_points.txt
 /home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info/PKG-INFO
 /home/tsi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info/requires.txt
